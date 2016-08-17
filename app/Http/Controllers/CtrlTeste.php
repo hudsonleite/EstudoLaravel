@@ -24,6 +24,6 @@ class CtrlTeste extends Controller
     public function msg($value)
     {
     	# code...
-    	Return view('pgmsg/index');
+    	Return view('pgmsg.index');
     }
 }
