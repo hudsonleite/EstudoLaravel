@@ -39,4 +39,8 @@ class CtrlTeste extends Controller
         # code...
         return view('pghome.index', ['mensagem'=>$value]);
     }
+    public function mostra_dados_pessoa()
+    {
+        return view('pghome.pg_info_pessoa');
+    }
 }

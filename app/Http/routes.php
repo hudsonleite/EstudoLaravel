@@ -24,3 +24,4 @@ Route::get('home','CtrlTeste@home');
 Route::get('msg/{msg}', 'CtrlTeste@msg');
 Route::get('msg1/{msg}', 'CtrlTeste@msg1');
 Route::get('pgmsg/{msg}', 'CtrlTeste@msggeral');
+Route::get('dados_pessoa', 'CtrlTeste@mostra_dados_pessoa');
