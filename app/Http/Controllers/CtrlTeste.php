@@ -43,4 +43,9 @@ class CtrlTeste extends Controller
     {
         return view('pghome.pg_info_pessoa');
     }
+    public function mostra_dados_func()
+    {
+        # code...
+        return view('pghome.pg_info_func');
+    }
 }
