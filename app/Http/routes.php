@@ -26,3 +26,4 @@ Route::get('msg1/{msg}', 'CtrlTeste@msg1');
 Route::get('pgmsg/{msg}', 'CtrlTeste@msggeral');
 Route::get('dados_pessoa', 'CtrlTeste@mostra_dados_pessoa');
 Route::get('dados_func','CtrlTeste@mostra_dados_func');
+Route::get('anotações', 'CtrlTeste@mostra_anotacao');

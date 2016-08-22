@@ -48,4 +48,17 @@ class CtrlTeste extends Controller
         # code...
         return view('pghome.pg_info_func');
     }
+
+    public function mostra_anotacao(){
+        #code
+        $notas_r = [
+            0 => "A gratidão é a memória do coração.",
+            1 => "Falo nada, só observo.",
+            2 => "Deixe pra trás o que não te leva pra frente.",
+            3 => "O segredo é ter fé em Deus.",
+            4 => "Não importa o que você decidiu. O que importa é que isso te faça feliz.",
+        ];
+
+        return view('pghome.pg_anotacao', compact('notas_r'));
+    }
 }
