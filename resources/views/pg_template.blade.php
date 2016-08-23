@@ -10,6 +10,8 @@
 
 	<!-- adicionar Css Bootstrap -->
 	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
+	<!-- css personalizado -->
+	<link href="{{ asset('css/estilo_personalizado.css') }}" rel="stylesheet" media="screen">
 </head>
 <body> 
 	<div class="panel panel-default">
