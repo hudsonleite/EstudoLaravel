@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Postagem;
 use App\Http\Requests;
 
 class CtrlTeste extends Controller
@@ -60,5 +60,11 @@ class CtrlTeste extends Controller
         ];
 
         return view('pghome.pg_anotacao', compact('notas_r'));
+    }
+
+    public function postagem(){
+        $postagem = \App\Postagem::all();
+
+        return view('pghome.pg_postagem',compact('postagem'));
     }
 }
