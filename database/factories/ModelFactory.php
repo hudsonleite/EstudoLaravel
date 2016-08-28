@@ -26,3 +26,10 @@ $factory->define(App\Postagem::class, function(Faker\Generator $faker){
 		'content' => $faker->paragraph
 	];
 });
+
+$factory->define(App\FrasesModelos::class, function(faker\Generator $faker){
+    return[
+        'title' => $faker->sentence,
+        'conteudo' => $faker->paragraph
+    ];
+});

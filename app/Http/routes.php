@@ -30,3 +30,4 @@ Route::get('anotações', 'CtrlTeste@mostra_anotacao');
 Route::get('login','CtrlLogin@mostra_login');
 Route::get('posts','PostsController@index');
 Route::get('pgpostagem','CtrlTeste@postagem');
+Route::get('pgfrases','CtrlFrasesModelos@frasesdiversas');
