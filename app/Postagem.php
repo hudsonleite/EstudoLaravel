@@ -11,4 +11,10 @@ class Postagem extends Model
     	'title',
     	'content'
     ];
+
+    public function ComentariosPost()
+    {
+    	# code...
+    	return $this->hasMany('App\ComentariosPost','id_post','id');
+    }
 }
