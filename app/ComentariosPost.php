@@ -13,4 +13,10 @@ class ComentariosPost extends Model
 		'email',
 		'comentario'
     ];
+
+    public function post()
+    {
+    	# code...
+    	return $this->belongsTo('App\Postagem','id_post','id');
+    }
 }

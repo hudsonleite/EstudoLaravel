@@ -33,3 +33,9 @@ $factory->define(App\FrasesModelos::class, function(faker\Generator $faker){
         'conteudo' => $faker->paragraph
     ];
 });
+
+$factory->define(App\Tag::class, function(faker\Generator $faker){
+    return[
+        'name' => $faker->word
+    ];
+});

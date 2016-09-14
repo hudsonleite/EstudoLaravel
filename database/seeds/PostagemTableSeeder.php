@@ -13,6 +13,6 @@ class PostagemTableSeeder extends Seeder
     public function run()
     {
         Postagem::truncate();
-        factory('App\Postagem', 15)->create();
+        factory(Postagem::class, 15)->create();
     }
 }
